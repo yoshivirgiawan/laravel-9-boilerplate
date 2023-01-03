@@ -1,0 +1,14 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use App\Infrastructures\Services\Core\Repository;
+use App\Models\$MODEL$;
+
+class $CLASS_NAME$ extends Repository
+{
+    protected function model(): string
+    {
+        return $MODEL$::class;
+    }
+}
