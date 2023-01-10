@@ -2,7 +2,7 @@
 
 namespace $NAMESPACE$;
 
-use App\Infrastructures\Services\Core\Repository;
+use App\Infrastructures\Core\Repository;
 
 class $CLASS_NAME$ extends Repository
 {
